@@ -23,7 +23,29 @@ git<!--HTML5-->
         </button>
         <!--Las entradas del menu propiamente dichas, fijate que el id coincida con el data-targer de arriba-->
         <div class="collapse navbar-collapse" id="entradas_menu">
+<!--Los menus se hacen son listas-->
+<ul class="navbar-nav">
+    <!--Cada elemento de la lista es una entrada del menú-->
+    <li class="nav-item">
+        <!--Enlace al que lleva el menú-->
+        <a class="nav-link" href="#" id="menu_inicio">Inicio</a>
+    </li>
 
+    <li class="nav-item">
+        <a class="nav-link" href="#" id="menu_desarrollo_web">Desarrollo Web</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="#" id="menu_desarrollo_java">Desarrollo Java</a>
+    </li>
+    <li class="nav-item">_
+        <a class="nav-link" href="#" id="menu_bases_de_datos">Bases de Datos</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="#" id="menu_contacto">Contacto</a>
+    </li>
+</ul>
         </div>
     </nav>
     <div class="container">
@@ -32,16 +54,16 @@ git<!--HTML5-->
             <p>Inicio</p>
         </div>
         <div id="panel_desarrollo_Web" class="panel">
-            <p>Partida Fácil</p>
+            <p>Desarrollo Web</p>
         </div>
         <div id="panel_desarrollo_java" class="panel">
-            <p>Partida Medio</p>
+            <p>Desarrollo Java</p>
         </div>
         <div id="panel_bases_de_datos" class="panel">
-            <p>Partida Dificil</p>
+            <p>Bases de Datos</p>
         </div>
         <div id="panel_contacto" class="panel">
-            <p>Ayuda</p>
+            <p>Contacto</p>
         </div>
 
         <!--JavaScript-->
@@ -57,6 +79,7 @@ git<!--HTML5-->
         <script src="js/controlador.js"></script>
         <script src="js/index.js"></script>
 </body>
+
 
 </html>
 <!--

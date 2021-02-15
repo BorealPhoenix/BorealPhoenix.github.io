@@ -15,6 +15,8 @@ $.controller = {};
  */
 $.controller.activate = function (panel_name) {
     // console.log("cambio old::"+$.controller.active_panel+" new::"+panel_name);
+
+    //El hide("slow", "swing"); y el show("fast", "swing"); son efectos de JQuery
     $($.controller.active_panel).hide("slow", "swing");
     $(panel_name).show("fast", "swing");
     $.controller.active_panel = panel_name;

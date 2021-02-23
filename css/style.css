@@ -1,4 +1,41 @@
+/*Fotos incio borde*/
 div.card>img {
-background-color: rgb(255, 47, 168);
+background-color: rgb(68, 47, 255);
 padding: 0.45rem;
 }
+
+
+/*Letras de debajo de la imagenes*/
+div.card{
+    color: rgb(38, 0, 255);
+}
+
+/*Color de Fondo de la barra de navegación*/
+.bg-dark {
+    background-color: #2600ff !important;
+}
+/*Color: Boreal Phoenix*/
+.navbar-dark .navbar-brand:hover {
+    color: rgb(9, 255, 0);
+}
+/* Color: Inicio*/
+.nav-link:hover {
+    color: rgb(9, 255, 0);
+}
+
+/*Color: Desarrollador Java*/
+.nav-link:hover {
+    color: rgba(255,255,255,.75);
+}
+
+/*Color: Bases de Datos*/
+.nav-link:hover {
+    color: rgba(255,255,255,.75);
+}
+
+/*Color: Contacto*/
+.nav-link:hover {
+    color: rgba(255,255,255,.75);
+}
+
+/*El resto de elementos con el inspector de tareas y Crt+c y Ctrl +v */

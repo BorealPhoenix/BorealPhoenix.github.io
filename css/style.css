@@ -1,47 +1,54 @@
 /*Fotos incio borde*/
 div.card>img {
-background-color: rgb(0, 0, 0);
-padding: 0.45rem;
-}
+    background-color: rgb(0, 0, 0);
+    padding: 0.45rem;
+    }
+    
+    
+    /*Letras de debajo de la imagenes*/
+    div.card{
+        color: rgb(0, 255, 55);
+    }
+    
+    /*Color de Fondo de la barra de navegación*/
+    .bg-dark {
+        background-color: #000000 !important;
+    }
+    /*Color: Boreal Phoenix*/
+    .navbar-dark .navbar-brand {
+        color:  rgb(0, 255, 76);
+    }
+    .navbar-dark .navbar-brand:hover {
+        color: rgb(255, 255, 255);
+    }
+    /* Color: Inicio Desarrollo Java, Bases De Datos Contacto*/
+    .navbar-nav .nav-link {
+        color:  rgb(0, 255, 76);
+    }
+    
+    
+    /*Boton de 3 barras para hacer desplegable*/
+    .navbar-dark .navbar-nav .nav-link {
+        color: rgb(0, 255, 76);
+    }
+    
+    /*Color: Desarrollador Freenlance*/
+    h3{
+        color:rgb(0, 255, 55) ;
+    }
+    
+    /*Color Botones ejemplo*/
+    .btn-primary {
+        color: rgb(0 255 55);
+        background-color: #000000;
+        border-color: rgb(0 255 55);
+    }
 
+/*Color boton ejemplo cuando pones el raton encima*/ 
+    .btn-primary:hover {
+        color: #8000ff;
+        background-color: #000;
+        border-color: #bc02ff;
+    }
 
-/*Letras de debajo de la imagenes*/
-div.card{
-    color: rgb(0, 255, 55);
-}
-
-/*Color de Fondo de la barra de navegación*/
-.bg-dark {
-    background-color: #000000 !important;
-}
-/*Color: Boreal Phoenix*/
-.navbar-dark .navbar-brand {
-    color:  rgb(0, 255, 76);
-}
-.navbar-dark .navbar-brand:hover {
-    color: rgb(255, 255, 255);
-}
-/* Color: Inicio Desarrollo Java, Bases De Datos Contacto*/
-.navbar-nav .nav-link {
-    color:  rgb(0, 255, 76);
-}
-
-
-/*Boton de 3 barras para hacer desplegable*/
-.navbar-dark .navbar-nav .nav-link {
-    color: rgb(0, 255, 76);
-}
-
-/*Color: Desarrollador Freenlance*/
-h3{
-    color:rgb(0, 255, 55) ;
-}
-
-/*Color Botones ejemplo*/
-.btn-primary {
-    color: rgb(0 255 55);
-    background-color: #000000;
-    border-color: rgb(0 255 55);
-}
-/*El resto de elementos con el inspector de tareas y Crt+c y Ctrl +v */
-
+    /*El resto de elementos con el inspector de tareas y Crt+c y Ctrl +v */
